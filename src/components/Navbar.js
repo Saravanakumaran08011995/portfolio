@@ -53,7 +53,7 @@ export const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-16px flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a href="https://drive.google.com/file/d/1jq6uki5y5ED9GoPYZIBB7DoOGG9agzuL/view?usp=share_link" className='flex justify-between items-center w-full text-gray-300 py-3'target='_blank' rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1ERt5rx7REACDWtt6ADFE4tubFBWoni50/view?usp=drive_link" className='flex justify-between items-center w-full text-gray-300 py-3'target='_blank' rel="noreferrer">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
