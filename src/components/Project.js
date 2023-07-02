@@ -1,6 +1,7 @@
 import React from "react";
 import movieApp from "../assets/projects/movieApp.png";
 import kanban from "../assets/projects/kanban-clone.png"
+import amazonPrime from "../assets/projects/amazon-prime-clone.png"
 
 export const Project = () => {
   return (
@@ -75,6 +76,46 @@ export const Project = () => {
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${amazonPrime})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="flex flex-col opacity-0 group-hover:opacity-100">
+            <span className="text-2xl font-bold text-white tracking-wider">
+                Amazon Prime Clone
+              </span>
+              <span className="text-xl font-medium text-white">Full Stack MERN project</span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://saravana-kumaran-amazon-prime-clone.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Saravanakumaran08011995/amazon-prime-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    F-Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Saravanakumaran08011995/amazon-prime-clone-backend"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    B-Code
                   </button>
                 </a>
               </div>
