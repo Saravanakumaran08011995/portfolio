@@ -38,7 +38,7 @@ export const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-16px flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a href="https://www.linkedin.com/in/saravana-kumaran-80b47b259/" className='flex justify-between items-center w-full text-gray-300 py-3' target='_blank' rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/saravana-kumaran8195//" className='flex justify-between items-center w-full text-gray-300 py-3' target='_blank' rel="noreferrer">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
